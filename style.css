@@ -1,0 +1,231 @@
+body {
+  position: absolute;
+  width: 100%;
+}
+
+.blue {
+    color: #0072bc;
+}
+
+.bottomLeft {
+  height: auto;
+}
+
+.bottomLeft img{
+  display: inline-block;
+  height: 90%;
+  margin-left: 15px;
+  bottom: 0;
+}
+
+.bottomSocial {
+  margin-top: 50px;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+}
+
+.bottomRight {
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.bottomStuffHolder {
+  height: 100%;
+}
+
+.bottomStuffHolder img{
+  /*float: right;
+  display: block;*/
+}
+
+.bottomText{
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  text-align: right;
+  float: right;
+}
+
+.contentTextBlock {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: 'Menlo', sans-serif;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.copyrightInfo {
+  float: right;
+  font-size: 25px;
+  font-family: 'Menlo', sans-serif;
+  margin-right: 40px;
+  color: white;
+  margin-top: 0px;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.infinityHolder {
+  width: 100%;
+}
+
+.infinityHolder img{
+  float: right;
+}
+
+.inputBoxed {
+  background-color: #0072bc;
+  font-size: 21px;
+  height: 35px;
+  color: white;
+}
+
+.inputHolder {
+  padding-top: 25px;
+  display: inline-block;
+}
+
+.inputLabel {
+  text-align: right;
+  padding-top: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+.inputTextarea {
+  background-color: #0072bc;
+  font-size: 21px;
+  height: 90px;
+  color: white;
+}
+
+.inputRow {
+  margin-top: 10px;
+}
+
+.sect0 {
+  padding: 0px;
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+}
+
+.sect1 {
+  height: 100%;
+  background-color: gray;
+  display: inline-block;
+}
+
+.sect2 {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.sendText {
+  text-align: center;
+  font-size: 23px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.socialHolder {
+  padding-bottom: 20px;
+  height: 120px;
+  z-index: 3;
+}
+
+.socialHolder img {
+  height: 100px;
+  width: 100px;
+  margin-left: 15px;
+  display: inline-block;
+  top: 0;
+}
+
+.splitBlock {
+  z-index: 2;
+  background-color: gray;
+  width: 100%;
+  position: absolute;
+}
+
+.studio {
+  font-size: 30px;
+}
+
+.supermanContainer {
+  padding-top: 10%;
+  z-index: 3;
+}
+
+.supermanContainer img{
+  width: 100%;
+  height: 100%;
+}
+
+.unleashFindOut {
+  font-family: 'Menlo', sans-serif;
+  padding-top: 15px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.unleashText {
+  font-family: "Menlo", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.website {
+  font-size: 13px;
+}
+
+/*///////Media Queries and resizes/////*/
+
+@media (max-width: 768px) {
+  .socialHolder img {
+    height: 75px;
+    width: 75px;
+    margin-left: 15px;
+    display: inline-block;
+    top: 0;
+  }
+  .copyrightInfo {
+    font-size: 22px;
+    margin-right: 10px;
+  }
+  .unleashFindOut {
+    font-size: 18px;
+  }
+
+  .unleashText {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 475px) {
+  .socialHolder img {
+    height: 60px;
+    width: 60px;
+    margin-left: 15px;
+    display: inline-block;
+    top: 0;
+  }
+  .copyrightInfo {
+    font-size: 19px;
+  }
+}
