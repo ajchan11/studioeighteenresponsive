@@ -14,3 +14,5 @@ adjustTopBlack();
 setInterval(function(){
   adjustTopBlack();
 }, 30)
+
+// function
