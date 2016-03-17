@@ -1,0 +1,176 @@
+.centerText {
+    text-align: center;
+}
+
+.moreRow {
+    padding: 2em 0 2em 0;
+}
+
+.smallPadding {
+    padding-left: 0px;
+    padding: 10px;
+}
+
+.colored {
+    font-size: 50px;
+    padding-left: 0px;
+    padding: 10px;
+    line-height: 120px;
+}
+
+.messageInput {
+    margin-left: 180px;
+    margin-right: 10px;
+}
+
+.btn-info {
+    box-shadow: inset 0 0 0 0px #fff;
+    height: 39px;
+    margin-top: -4px;
+}
+
+.ourLogo {
+    width: 200px;
+    padding: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.demo-3 {
+    width:100%;
+    max-height:400px;
+    overflow:hidden;
+    border: 0;
+}
+.demo-3 figure {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    margin-left:-50px
+}
+.demo-3 figure img {
+    width: 100%;
+    display:block;
+    position:relative;
+    z-index:10;
+    margin:-15px 0
+}
+.demo-3 figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.demo-3 figure h2 {
+    color:#fff;
+    font-size:20px;
+    text-align:left
+}
+.demo-3 figure p {
+    display:block;
+    font-size:14px;
+    line-height:18px;
+    margin:0;
+    color:#fff;
+    text-align:left
+}
+.demo-3 figure figcaption {
+    top:0;
+    left:5%;
+    width:100%;
+    height:100%;
+    padding:29px 44px;
+    background-color:rgba(26,76,110,0.5);
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.demo-3 figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.demo-3 figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.demo-3 figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+.no-gutter ul {
+    list-style-type: none;
+    margin: 0px;
+    border: 0px;
+    padding-left: 0px;
+}
+
+.no-gutter {
+    border-bottom: 0px;
+}
+
+.tech h2 {o
+    margin-bottom: 0px;
+}
+
+.spotlight img {
+    max-height: 300px;
+    width: auto;
+    bottom: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    .col-sm-4 {
+        width: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .spotlight img {
+        max-width: 200px;
+    }
+    .btn-info {
+        position: absolute;
+        right: 50px;
+        bottom: 2px;
+    }
+    input[type="text"], input[type="password"], input[type="email"], select, textarea {
+        width: 30%;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    #header h1 a {
+        display: none;
+    }
+    
+    .messageInput {
+        margin-left: 10px;
+    }
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
